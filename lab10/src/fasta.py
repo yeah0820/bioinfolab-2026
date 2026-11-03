@@ -61,8 +61,8 @@ if __name__ == "__main__":
         print(name, len(seqs[name]), round(gc_content(seqs[name]), 3))
     
     # 역상보 테스트
-    seq = "ATGC"
-    rc = reverse_complement(seq)
-    print("원래 서열:", seq)
-    print("역상보 서열:", rc)
-    print("역상보의 역상보 == 원래:", reverse_complement(rc) == seq)
+    #seq = "ATGC"
+    #rc = reverse_complement(seq)
+    #print("원래 서열:", seq)
+    #print("역상보 서열:", rc)
+    #print("역상보의 역상보 == 원래:", reverse_complement(rc) == seq)
